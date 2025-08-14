@@ -5,81 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65101d09-585b-4847-bbbd-b14cf5f3e8f9" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/my-log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/aware/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/aware/bean/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/aware/bean/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/aware/bean/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/aware/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/basic/SpringRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/basic/config/RestaurantConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/basic/staff/Barista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/di/CafeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/di/bean/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/di/bean/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/di/bean/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/di/config/CafeConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/lifecycle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/lifecycle/bean/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/lifecycle/bean/CoffeeShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/lifecycle/bean/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/lifecycle/bean/IngredientFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/lifecycle/config/LifecycleConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/postprocessor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/postprocessor/bean/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/postprocessor/bean/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/postprocessor/bean/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/postprocessor/config/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/postprocessor/processor/MenuBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/postprocessor/processor/WaiterOnDutyFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/props/Bean/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/props/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/props/config/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/scope/RestauranApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/scope/bean/HeadChef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/scope/bean/ObjectProviderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/scope/bean/OrderProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/scope/bean/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/scope/config/RestaurantCinfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/spel/Bean/ProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/spel/Bean/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/spel/Bean/SimpleSpelExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/spel/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/spel/config/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/custombean_task/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/custombean_task/bean/MyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/custombean_task/bean/RandomNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/custombean_task/config/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/custombean_task/processor/RandomNumberPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/logger_task/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/logger_task/bean/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/logger_task/bean/CustomLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/logger_task/bean/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/logger_task/config/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/order_task/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/order_task/bean/OrderContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/order_task/bean/OrderSerivce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/petr/spring/task/order_task/config/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-logger.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-spel.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/menu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/my-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/my-log.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,18 +24,78 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="basic-spring" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="basic-spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="basic-spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;green1231&quot;
+  }
+}</component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;PiterKorzh&quot;,
+      &quot;fullname&quot;: &quot;piter korzh&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/piterkorzh1/spring-basic&quot;,
+    &quot;second&quot;: &quot;154da630-1ead-433b-a6a0-0f1f59876e22&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/green1231/basic-spring.git&quot;,
+    &quot;accountId&quot;: &quot;2e2777eb-c503-4754-bfaa-cd92f3a2f462&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -121,37 +111,61 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CafeApplication.executor": "Run",
+    "Application.com.petr.spring.event.Main.executor": "Run",
+    "Application.com.petr.spring.task.online_store.Main.executor": "Coverage",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.aware.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.basic.SpringRestaurant.main()].executor": "Run",
+    "Gradle.basic-spring [:com.petr.spring.custom_scope.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.di.CafeApplication.main()].executor": "Run",
+    "Gradle.basic-spring [:com.petr.spring.event.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.lifecycle.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.logger_task.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.postprocessor.Main.main()].executor": "Run",
+    "Gradle.basic-spring [:com.petr.spring.profile.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.props.Main.main()].executor": "Run",
+    "Gradle.basic-spring [:com.petr.spring.proxy.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.scope.RestauranApplication.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.spel.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.task.custombean_task.Main.main()].executor": "Run",
+    "Gradle.basic-spring [:com.petr.spring.task.measure_bean.Main.main()].executor": "Run",
+    "Gradle.basic-spring [:com.petr.spring.task.online_store.Main.main()].executor": "Run",
     "Gradle.basic-spring [:com.petr.spring.task.order_task.Main.main()].executor": "Run",
+    "Gradle.basic-spring [build].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/MAR4KESH/IdeaProjects/toughchick",
+    "last_opened_file_path": "C:/Users/MAR4KESH/IdeaProjects/basic-spring",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.petr.spring.task.custombean_task.Main">
+  <component name="RunManager" selected="Application.com.petr.spring.task.online_store.Main">
+    <configuration name="CafeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.petr.spring.di.CafeApplication" />
+      <module name="basic-spring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.petr.spring.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.petr.spring.task.order_task.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.petr.spring.task.measure_bean.Main" />
       <module name="basic-spring.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.petr.spring.task.order_task.*" />
+          <option name="PATTERN" value="com.petr.spring.task.measure_bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.petr.spring.logger_task.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.petr.spring.logger_task.Main" />
+    <configuration name="com.petr.spring.event.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.petr.spring.event.Main" />
       <module name="basic-spring.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.petr.spring.logger_task.*" />
+          <option name="PATTERN" value="com.petr.spring.event.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.petr.spring.props.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.petr.spring.props.Main" />
+    <configuration name="com.petr.spring.task.online_store.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.petr.spring.task.online_store.Main" />
       <module name="basic-spring.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.petr.spring.props.*" />
+          <option name="PATTERN" value="com.petr.spring.task.online_store.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,46 +199,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.petr.spring.spel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.petr.spring.spel.Main" />
-      <module name="basic-spring.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.petr.spring.spel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.petr.spring.task.custombean_task.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.petr.spring.task.custombean_task.Main" />
-      <module name="basic-spring.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.petr.spring.task.custombean_task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="basic-spring [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.CafeApplication" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.com.petr.spring.task.custombean_task.Main" />
-      <item itemvalue="Application.com.petr.spring.logger_task.Main" />
-      <item itemvalue="Application.com.petr.spring.spel.Main" />
-      <item itemvalue="Application.com.petr.spring.props.Main" />
+      <item itemvalue="Application.com.petr.spring.event.Main" />
+      <item itemvalue="Application.com.petr.spring.task.online_store.Main" />
+      <item itemvalue="Gradle.basic-spring [build]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.petr.spring.task.custombean_task.Main" />
+        <item itemvalue="Gradle.basic-spring [build]" />
+        <item itemvalue="Application.CafeApplication" />
+        <item itemvalue="Application.com.petr.spring.event.Main" />
+        <item itemvalue="Application.com.petr.spring.task.online_store.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.petr.spring.logger_task.Main" />
-        <item itemvalue="Application.com.petr.spring.spel.Main" />
-        <item itemvalue="Application.com.petr.spring.props.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +247,15 @@
       <option name="presentableId" value="Default" />
       <updated>1751783620985</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1752334762976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752334762976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +280,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/petr/spring/scope/bean/OrderProcessor.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/petr/spring/application/service/TaskService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
